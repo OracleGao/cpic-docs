@@ -5,7 +5,7 @@
 - 详见[小镇官网web端代码库](https://code.clouderwork.com/cpic/ec-town-web)
 
 ## 安装部署
-1. 拉取项目代码
+1. 拉取[部署代码](https://code.clouderwork.com/cpic/ec-town-deploy)
 2. 登录公司阿里云镜像库
 3. 执行./pull.sh 拉取镜像
 4. 修改env环境配置参数 端口不冲突可使用默认
