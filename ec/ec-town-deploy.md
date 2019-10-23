@@ -18,7 +18,7 @@ export CONFIG_PATH=${CURRENT_PATH}/conf # 无需修改
 export DEPLOY_HOME=${CURRENT_PATH}/deploy # 无需修改，wordpress安装文件位于${DEPLOY_HOME}/web
 export COMPOSE_PROJECT_NAME=ec-town # 无需修改
 export EC_TOWN_WEB_VERSION=1.0 # 小镇官网镜像版本
-``` txt
+```
 5. 执行./startup.sh 启动服务
 6. http://${HOST}:${WP_PORT} 访问wordpress服务 进行安装wordpress
 7. 执行./install_plugin.sh安装wordpress插件（需要[插件代码库](https://code.clouderwork.com/cpic/ec-wp-plugin)权限）
