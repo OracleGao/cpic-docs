@@ -12,7 +12,9 @@
 ``` txt
 export PROFILE=dev # 部署环境默认dev
 export WP_PORT=8899  # wordpress 管理后台端口
+export WEB_PORT=8889 # 小镇官网端口
 export DB_PORT=3307  # 外网访问数据库端口
+
 export CURRENT_PATH=$(pwd) 
 export CONFIG_PATH=${CURRENT_PATH}/conf # 无需修改
 export DEPLOY_HOME=${CURRENT_PATH}/deploy # 无需修改，wordpress安装文件位于${DEPLOY_HOME}/web
@@ -20,7 +22,7 @@ export COMPOSE_PROJECT_NAME=ec-town # 无需修改
 export EC_TOWN_WEB_VERSION=1.0 # 小镇官网镜像版本
 ```
 5. 执行./startup.sh 启动服务
-6. http://${HOST}:${WP_PORT} 访问wordpress服务 进行安装wordpress
+6. http://${HOST}:${WP_PORT} （HOST为主机ip或者域名）访问wordpress服务 进行安装wordpress
 7. 执行./install_plugin.sh安装wordpress插件（需要[插件代码库](https://code.clouderwork.com/cpic/ec-wp-plugin)权限）
 8. 修改wordpress配置
 
@@ -38,6 +40,8 @@ export EC_TOWN_WEB_VERSION=1.0 # 小镇官网镜像版本
 curl http://${HOST}:${WP_PORT}/wp-json/small_town/v1/hello
 {"code":1,"message":"hello","data":""}
 ```
+10. 访问小镇官网 http://${HOST}:${WEB_PORT}
+
 ## wordpress更新插件
 - 正确执行安装部署后 执行./install_plugin.sh 即可
 
