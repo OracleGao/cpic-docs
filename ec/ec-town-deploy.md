@@ -28,8 +28,8 @@ export EC_TOWN_WEB_VERSION=1.0 # 小镇官网镜像版本
 7. 执行./install_plugin.sh安装wordpress插件（需要[插件代码库](https://code.clouderwork.com/cpic/ec-wp-plugin)权限）
 8. 修改wordpress配置
 
-  1. http://${HOST}:${WP_PORT}/wp-admin/options-permalink.php  选择"文章名"单选项并保存
-  2. http://${HOST}:${WP_PORT}/wp-admin/plugins.php 启用插件
+  a. http://${HOST}:${WP_PORT}/wp-admin/options-permalink.php  选择"文章名"单选项并保存
+  b. http://${HOST}:${WP_PORT}/wp-admin/plugins.php 启用插件
 ```
 Laravel DD for Wordpress
 REST API TO MiniProgram
