@@ -1,6 +1,6 @@
 # ec-town-deploy
-
-## 前值准备
+- 统一项目部署
+## 前置准备
 ### 构建小镇官网web端镜像
 - 详见[小镇官网web端代码库](https://code.clouderwork.com/cpic/ec-town-web)
 
