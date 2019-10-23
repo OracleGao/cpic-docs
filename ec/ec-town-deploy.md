@@ -46,6 +46,7 @@ curl http://${HOST}:${WP_PORT}/wp-json/small_town/v1/hello
 - 执行./install_plugin.sh （只需首次正确执行安装部署）【无需重启】
 
 ## 小镇官网更新
+- 更新并重新构建镜像，详见[小镇官网web端代码库](https://code.clouderwork.com/cpic/ec-town-web)
 - 停止 ./cleanup.sh
 - 执行./pull.sh
 - 启动 ./startup.sh
