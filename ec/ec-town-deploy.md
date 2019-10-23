@@ -43,7 +43,16 @@ curl http://${HOST}:${WP_PORT}/wp-json/small_town/v1/hello
 10. 访问小镇官网 http://${HOST}:${WEB_PORT}
 
 ## wordpress更新插件
-- 执行./install_plugin.sh （只需首次正确执行安装部署）
+- 执行./install_plugin.sh （只需首次正确执行安装部署）【无需重启】
+
+## 小镇官网更新
+- 停止 ./cleanup.sh
+- 执行./pull.sh
+- 启动 ./startup.sh
+
+## 项目启停
+- 启动 ./startup.sh
+- 停止 ./cleanup.sh
 
 ## docker环境安装
 - 执行下面指令（仅支持ubuntu和centos，请确保操作系统内核版本符合docker官方要求）
