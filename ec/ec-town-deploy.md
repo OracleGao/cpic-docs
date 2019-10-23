@@ -56,8 +56,4 @@ curl http://${HOST}:${WP_PORT}/wp-json/small_town/v1/hello
 - 停止 ./cleanup.sh
 
 ## docker环境安装
-- 执行下面指令（仅支持ubuntu和centos，请确保操作系统内核版本符合docker官方要求）
-``` txt
-curl -L github.com/OracleGao/docker/raw/master/docker-install.sh | bash
-curl -L github.com/OracleGao/docker/raw/master/docker-compose-install.sh | bash
-```
+- 详见[docker安装部署](https://github.com/OracleGao/docker/blob/master/README.md)
