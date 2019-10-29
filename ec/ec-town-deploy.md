@@ -13,7 +13,7 @@
 3. 执行./pull.sh dev拉取镜像（参数说明：dev研发，prod生产）
 4. 修改env-dev（研发）和env-prod（正式）环境配置参数 端口不冲突可使用默认。以研发为例
 ``` txt
-export PROFILE=dev # 部署环境默认dev
+export PROFILE=dev # 部署环境无需修改
 export WP_PORT=8899  # wordpress 管理后台端口
 export WEB_PORT=8889 # 小镇官网端口
 export DB_PORT=3307  # 外网访问数据库端口
