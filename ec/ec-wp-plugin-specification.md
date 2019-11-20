@@ -44,7 +44,7 @@
     	$count = $wpdb->get_var(" SELECT COUNT(*) FROM `wp_options` ");
     	return [
     		"code"      =>  0,
-    		"status"   =>  $count ? "UP" : "DOWN",
+    		"status"    =>  $count ? "UP" : "DOWN",
     		"content"   =>  [
     			"mysql" =>  $count ? "UP" : "DOWN"
     		]
